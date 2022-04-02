@@ -1,0 +1,62 @@
+#flag{
+    padding: 40px;
+    background-color: grey;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.colone{
+    display: flex;
+    margin-top: 100px;
+}
+.rand{
+    display: flex;
+    flex-direction:column;
+}
+.loc{
+    padding: 10px;
+}
+.el{
+    width: 33.33%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    /* border-color: black; */
+
+    /* border: 5px black; */
+}
+
+#Pcol,
+#Dcol,
+#Tcol{
+    border: 5px solid transparent;
+}
+.colo{
+    width: 33%;
+    background-color: grey;
+    height: 300px;
+}
+.Buton{
+    /* width: 33%; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+.BKBUT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+
+}
+.Buton {
+    background-color: red;
+    color: wheat;
+    font-weight: bold;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+  }
