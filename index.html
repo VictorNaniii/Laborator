@@ -17,89 +17,89 @@
 
     <div class="colone">
       <div class="colo el"> 
-        <div  id="imag_1"  onclick="Im1()">
-          <img id="IMColP"   width="100%" height="100%" onclick="Im1()">
+        <div  id="imag_1"  onclick="">
+          <img id="IMColP"   width="100%" height="100%" onclick="ScFlag()" >
         </div>
       </div>
       <div class="colo el">
-        <img id="IMColD"   width="100%" onclick="Im2()">
+        <img id="IMColD"   width="100%" onclick="DcFlag()" >
       </div>
       <div class="colo el"> 
-        <img id="IMColT"   width="100%" onclick="Im3()">
+        <img id="IMColT"   width="100%" onclick="TcFlag()">
       </div>
     </div>
 
     <div class="colone">
-        <div class="el">
+        <div class="el" >
           <form class="rand " id="Pcol">
             <label class="loc">
-              <input type="radio" name="radio"  onclick="Im1()">
+              <input type="radio" name="radio"  onclick="Im1()" value="1" id="sua" >
               <span>SUA</span>
             </label>
             <label class="loc" >
-              <input type="radio" name="radio" onclick="Im1()">
+              <input type="radio" name="radio" onclick="Im1()" value="2" id="mexico">
               <span>Mexico</span>
             </label>
             <label class="loc" >
-              <input type="radio" name="radio"  onclick="Im1()">
+              <input type="radio" name="radio"  onclick="Im1()" value="3">
               <span>Canada</span>
             </label>
             <label class="loc" >
-              <input type="radio" name="radio"  onclick="Im1()">
+              <input type="radio" name="radio"  onclick="Im1()" value="4">
               <span>Venesuela</span>
             </label>
             <label class="loc" >
-              <input type="radio" name="radio"  onclick="Im1()">
+              <input type="radio" name="radio"  onclick="Im1()" value="5">
               <span>Columbia</span>
             </label>
           </form>
         </div>
 
-        <div class="el">
+        <div class="el" >
           <form class="rand"id="Dcol">
             <label class="loc">
-              <input type="radio" name="radio" id="" onclick="Im2()">
+              <input type="radio" name="radio" id="" onclick="Im2()" value="6">
               <span>France</span>
             </label>
             <label class="loc" >
-              <input type="radio" name="radio" id="" onclick="Im2()">
+              <input type="radio" name="radio" id="" onclick="Im2()" value="7">
               <span>Italy</span>
             </label>
             <label class="loc" >
-              <input type="radio" name="radio" id="" onclick="Im2()">
+              <input type="radio" name="radio" id="" onclick="Im2()" value="8">
               <span>Germany</span>
             </label>
             <label class="loc" >
-              <input type="radio" name="radio" id="" onclick="Im2()">
+              <input type="radio" name="radio" id="" onclick="Im2()" value="9">
               <span>Romania</span>
             </label>
             <label class="loc" >
-              <input type="radio" name="radio" id="" onclick="Im2()">
+              <input type="radio" name="radio" id="" onclick="Im2()" value="10">
               <span>Moldova</span>
             </label>
           </form>
         </div>
         
-        <div class="el">
+        <div class="el" >
           <form class="rand"id="Tcol">
             <label class="loc">
-              <input type="radio" name="radio" id="" onclick="Im3()">
+              <input type="radio" name="radio" id="" onclick="Im3()" value="11">
               <span>Kazakhstan</span>
             </label>
             <label class="loc" >
-              <input type="radio" name="radio" id="" onclick="Im3()">
+              <input type="radio" name="radio" id="" onclick="Im3()" value="12">
               <span>China</span>
             </label>
             <label class="loc" >
-              <input type="radio" name="radio" id="" onclick="Im3()">
+              <input type="radio" name="radio" id="" onclick="Im3()" value="13">
               <span>Japan</span>
             </label>
             <label class="loc" >
-              <input type="radio" name="radio" id="" onclick="Im3()">
+              <input type="radio" name="radio" id="" onclick="Im3()" value="14">
               <span>Korea</span>
             </label>
             <label class="loc" >
-              <input type="radio" name="radio" id="" onclick="Im3()">
+              <input type="radio" name="radio" id="" onclick="Im3()" value="15">
               <span>Singapure</span>
             </label>
           </form>
@@ -107,7 +107,7 @@
     </div>
 
     <div class="BKBUT">
-      <a href="#" class="Buton" onclick="location.reload(); return false;">
+      <a href="#" class="Buton" onclick="reset()">
         RESET
       </a>
     </div>

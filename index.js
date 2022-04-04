@@ -17,12 +17,6 @@ function getColor() {
     return `#${red}${green}${blue}`;
 }
 
-function resetColors() {
-    firstCol.style.borderColor = 'transparent';
-    secondCol.style.borderColor = 'transparent';
-    thirdCol.style.borderColor = 'transparent';
-}
-
 function getActiveIndex(element) {
     let i = 0;
     const inputs = element.getElementsByTagName('input');
@@ -49,7 +43,6 @@ thirdCol.addEventListener('click', () => {
 });
 
 
-// let photo = document.getElementById("id_la_imagine");
 
 
 var IMColP = document.getElementById('IMColP');
@@ -60,6 +53,7 @@ function Im1(){
     switch(getActiveIndex(firstCol)){
         case 0:
             IMColP.src = "https://ds04.infourok.ru/uploads/ex/043b/0015880a-fe887047/hello_html_m514518f.jpg";
+
         break;
         case 1:
             IMColP.src = "https://esotericbunker.com/wp-content/uploads/2015/12/Mexico_flag-3.png";
@@ -114,4 +108,83 @@ function Im3(){
             IMColT.src = "https://stemwomen.asia/sites/default/files/2021-07/Singapore.jpg";
         break;
     }
+}
+
+
+function ScFlag(){
+    switch(getActiveIndex(firstCol)){
+    case 0 :
+        document.getElementById("flag").innerHTML = "SUA";
+        break;
+     case 1 :
+        document.getElementById("flag").innerHTML = "Mexico";
+        break;
+    case 2 :
+        document.getElementById("flag").innerHTML = "Canada";
+        break; 
+        case 3 :
+            document.getElementById("flag").innerHTML = "Venesuela";
+            break;
+        case 4 :
+            document.getElementById("flag").innerHTML = "Columbia";
+            break;                           
+    }
+}
+
+function DcFlag(){
+    switch(getActiveIndex(secondCol)){
+    case 0 :
+        document.getElementById("flag").innerHTML = "France";
+        break;
+     case 1 :
+        document.getElementById("flag").innerHTML = "Italy";
+        break;
+    case 2 :
+        document.getElementById("flag").innerHTML = "Germany";
+        break; 
+        case 3 :
+            document.getElementById("flag").innerHTML = "Romania";
+            break;
+        case 4 :
+            document.getElementById("flag").innerHTML = "Moldova";
+            break;                           
+    }
+}
+
+function TcFlag(){
+    switch(getActiveIndex(thirdCol)){
+    case 0 :
+        document.getElementById("flag").innerHTML = "Kazakhstan";
+        break;
+     case 1 :
+        document.getElementById("flag").innerHTML = "China";
+        break;
+    case 2 :
+        document.getElementById("flag").innerHTML = "Japan";
+        break; 
+        case 3 :
+            document.getElementById("flag").innerHTML = "Korea";
+            break;
+        case 4 :
+            document.getElementById("flag").innerHTML = "Singapure";
+            break;                           
+    }
+}
+function reset(){
+    IMColP.src = "https://ds04.infourok.ru/uploads/ex/043b/0015880a-fe887047/hello_html_m514518f.jpg";
+    IMColD.src = "https://static.wikia.nocookie.net/wolfenstein/images/9/95/1200px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg.png/revision/latest?cb=20200202064301";
+    IMColT.src = "https://store-images.s-microsoft.com/image/apps.59428.9007199266313609.5df7dba9-30a8-4c04-94dc-686537069d94.70d479c6-a850-4d37-876d-30461dc33bda";
+
+    firstCol.style.borderColor = 'transparent';
+    secondCol.style.borderColor = 'transparent';
+    thirdCol.style.borderColor = 'transparent';
+
+    document.getElementById("flag").innerHTML  = "Flag";
+
+    const inputs = firstCol.getElementsByTagName('input');
+    inputs.item(0).checked = true;
+    const inputss = secondCol.getElementsByTagName('input');
+    inputss.item(0).checked = true;
+    const inputsss = thirdCol.getElementsByTagName('input');
+    inputsss.item(0).checked = true;
 }
