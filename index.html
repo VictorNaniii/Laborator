@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nani Victor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container forma col-sm-3" required>
+        <form id="basic-form">
+            <p>
+                <b>Frist Name :</b><br>
+                <input id="name" name="name" minlength="3" type="text" placeholder="Nani"  required>
+              </p>
+
+            <p><b>Last Name :</b><br>
+                <input type="text" id="names"  placeholder="Victor" type="text"  size="40" required>
+            </p>
+
+            <p><b>email :</b><br>
+                <input id="email" placeholder="exemple@gmail.com" type="email" name="email" required>
+            </p>
+
+            <p><b>phone :</b><br>
+                <input  id="field" name="field" placeholder="+37367338942"  >
+            </p>
+
+            <p><b>physical address  :</b><br>
+                <input type="text" id="adres" size="40" required>
+            </p>
+
+
+            <p><b>Profession :</b><br>
+                <input type="text"id="Profession" size="40" required>
+            </p>
+
+            <div class="linii">
+
+            </div>
+
+            <div class="">
+                <input type="text" class="s as" placeholder="social media link" required >
+                <div id="input0"></div>
+                <button type="button" id="addInput" class="btn" >+Add social links</button>
+            </div>
+
+            <div class="linii">
+
+            </div>
+
+                <p id="Ed0"></p>
+            <p>
+                <b>Education Title :</b><br> 
+                <input type="text" id = "svedc" class="edc" placeholder="" required>  <b>Graduation Date :</b><br>
+                 <input type="date" cla class="edcc" placeholder="" >  <b>Education Type :</b><br>
+                  <input type="text" placeholder="" class="cla" required>
+                <button  onclick="addEduc()"  class="btn" >+Add Educations</button>
+          
+            </p>
+
+                <p id="Jb0"></p> 
+                <div class="linii">
+                </div>
+
+            <p>    
+                <b>Job Name :</b><br>
+                 <input type="text" class="job" placeholder="" required> 
+                  <b>StartDate :</b><br> 
+                  <input type="date" class="stdat" placeholder=""> 
+                   <b>EndDate :</b><br>
+                    <input type="date" class="jobb" placeholder=""> 
+                <button onclick="Jobb()"  class="btn" >+Add Jobs</button>
+            </p>
+            
+            <p>
+                <input class="submit" id="submit"type="submit" value="submit">
+            </p>
+
+        </form>
+    </div>
+
+    <!-- <div class="container" id="container">
+    </div> -->
+
+    <!-- <div class="footer" id="footer">
+        <button type="button" id="ping-button">Make a ping</button>
+        <button type="button" id="collect-button">Collect data</button>
+    </div> -->
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+<script src="main.js"></script>
+
+
+</body>
+</html>
