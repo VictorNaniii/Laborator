@@ -149,9 +149,11 @@ function ajaxGetRequest(){
 
 
 {/* <p>Link: ${JSON.stringify(response.Link)}</p> */}
-$('#collect-button').on('click', () => {
+
+
+$(document).ready(function() {
   ajaxGetRequest();
-});
+})
 
 function linkerist(linkul){
   const facebook = linkul.includes('facebook');
