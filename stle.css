@@ -1,0 +1,49 @@
+.Despre{
+    color: rgba(184, 155, 120, 0.767);
+    font-size: 60px;
+    font-weight:bold;
+    text-align: center;
+}
+.optie{
+    margin-left: 40px;
+    font-size: 20px;
+}
+.sectiune{
+    margin-top: 75px;
+}
+.opt{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(184, 155, 120, 0.767);
+}
+.loxusor{
+    width: 50%;
+    margin-top: 30px;
+    padding: 17%;
+}
+.loxusor2{
+    width: 50%;
+    margin-top: 30px;
+    padding: 15%;
+}
+.loxusor3{
+    width: 50%;
+    margin-top: 30px;
+    padding: 7.5%;
+}
+.dyspl{
+    display: flex;
+    flex-direction: row;
+}
+.loxusor4{
+    width: 50%;
+    margin-top: 30px;
+    padding: 5.5%;
+}
+.este{
+    text-align: center ;
+    
+}
+.dimses{
+    width: 67px;
+}

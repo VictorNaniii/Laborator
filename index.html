@@ -11,88 +11,114 @@
 <body>
     <div class="container forma col-sm-3" required>
         <form id="basic-form">
+
+        <!-- <div class="container"> -->
+
+            <label for="firstName">First name: </label>
+            <input type="text" id="firstName" name="firstName">
+            <div class="error" id="firstNameError"></div>
+
+        <!-- </div> -->
+
+        <div>
+            <label for="lastName">Last name: </label>
+            <input type="text" id="lastName" name="lastName">
+            <div class="error" id="lastNameError"></div>
+        </div>
+
+        <div>
+            <label for="email">Email: </label> <br>
+            <input type="text" id="email" name="email">
+            <div class="error" id="emailError"></div>
+        </div>
+
+        <div>
+            <label for="phone">Phone: </label> <br>
+            <input type="number" id="phone" name="phone">
+            <div class="error" id="phoneeror"></div>
+        </div>
+
+        <div>
+            <label for="PhysicalAdres">PhysicalAdres</label>
+            <input  type="text" name="" id="PhysicalAdres">
+        </div>
+
+        <div class="noness">
+            flag
+        </div>
+
+        <div>
+            <label for="Profession">Profession</label>
+            <select class="lungime" name="select" id="Profession">
+            <option value="0" selected></option>
+            </select>
+
+            <!-- <select name="" id="OfCit">
+                <option value="0" selected></option>
+                <option value="Chișinău">Chișinău</option>
+                <option value="Bălți">Bălți</option>
+                <option value="Orhei">Orhei</option>
+                <option value="Tiraspol">Tiraspol</option>
+                <option value="Soroca">Soroca</option>
+                <option value="Nisporeni">Nisporeni</option>
+                <option value="Bender">Bender</option>
+            </select>
+            
+            <select name="" id="CytiGETS"></select><br> -->
+
+            <!-- fdf -->
+
+
+            <!-- <select name=""  id = "OfCit">
+                <option value="0" selected></option>
+                <option value="Chișinău">Chișinău</option>
+                <option value="Bălți">Bălți</option>
+                <option value="Orhei">Orhei</option>
+                <option value="Tiraspol">Tiraspol</option>
+                <option value="Soroca">Soroca</option>
+                <option value="Nisporeni">Nisporeni</option>
+                <option value="Bender">Bender</option>
+            </select>
+            
+            <select name="" id = "CytiGETS"></select><br> -->
+
+
+            <!-- fdfd -->
+<!-- <span></span> -->
+            <!-- <input type="checkbox" id="dedede" class="delac">
+            <input type="date" class="deletImpute" id="deterere"> -->
+            <!-- <select name="" id=""> <option value="">JSC Alimentarmash</option> <option value="">Erlan Ltd.</option> <option value="">Melidan-Impex SRL</option> <option value="">CASALUX</option> <option value="">Marflex ltd</option> <option value="">Pronibur Ltd</option> <option value="">Valvcom</option> <option value="">Asierto</option> <option value="">Cuptorul Fermecat SRL</option> <option value="">GOSTMD</option> <option value="">Prometeu-T S. A.</option> <option value="">PALADI GUDVIN SRL</option> </select> -->
+
+            <!-- <section><option value="">Lower secondary education</option><option value="">Post-secondary non-tertiary education</option><option value="">Bachelor's or equivalent</option><option value="">Doctorate or equivalent</option><option value="">Primary education</option><option value="">Lower secondary education</option><option value="">Upper secondary education</option><option value="">Post-secondary non-tertiary education</option><option value="">Bachelor's or equivalent</option></section> -->
+        </div>
+        <span></span>
+        <!-- <select class="bb" name="select"> -->
+        <!-- <form > <p> <input type="text"> <br> <input type="text"> <br> <input type="text"> <br> <input type="text"> <br>  </p> </form> -->
+                <p id="input0"></p>
             <p>
-                <b>Frist Name :</b><br>
-                <input id="name" name="name" minlength="3" type="text" placeholder="Nani"  required>
-              </p>
-
-            <p><b>Last Name :</b><br>
-                <input type="text" id="names"  placeholder="Victor" type="text"  size="40" required>
+                <button type ="button" id="addInput" class="btn btn-outline-dark" >+Social links </button>
             </p>
-
-            <p><b>email :</b><br>
-                <input id="email" placeholder="exemple@gmail.com" type="email" name="email" required>
-            </p>
-
-            <p><b>phone :</b><br>
-                <input  id="field" name="field" placeholder="+37367338942"  >
-            </p>
-
-            <p><b>physical address  :</b><br>
-                <input type="text" id="adres" size="40" required>
-            </p>
-
-
-            <p><b>Profession :</b><br>
-                <input type="text"id="Profession" size="40" required>
-            </p>
-
-            <div class="linii">
-
-            </div>
-
-            <div class="">
-                <input type="text" class="s as" placeholder="social media link" required >
-                <div id="input0"></div>
-                <button type="button" id="addInput" class="btn" >+Add social links</button>
-            </div>
-
-            <div class="linii">
-
-            </div>
 
                 <p id="Ed0"></p>
             <p>
-                <b>Education Title :</b><br> 
-                <input type="text" id = "svedc" class="edc" placeholder="" required>  <b>Graduation Date :</b><br>
-                 <input type="date" cla class="edcc" placeholder="" >  <b>Education Type :</b><br>
-                  <input type="text" placeholder="" class="cla" required>
-                <button  onclick="addEduc()"  class="btn" >+Add Educations</button>
-          
-            </p>
-
-                <p id="Jb0"></p> 
-                <div class="linii">
-                </div>
+                <button type ="button"   id="educadd"    class="btn btn btn-outline-dark" >+Add Educations</button>
+            </p> 
+                
+                <p id="Jb0"></p>
 
             <p>    
-                <b>Job Name :</b><br>
-                 <input type="text" class="job" placeholder="" required> 
-                  <b>StartDate :</b><br> 
-                  <input type="date" class="stdat" placeholder=""> 
-                   <b>EndDate :</b><br>
-                    <input type="date" class="jobb" placeholder=""> 
-                <button onclick="Jobb()"  class="btn" >+Add Jobs</button>
+                <button type ="button"  id=" jobul"  class="btn btrn  btn-outline-dark" >+Add Jobs</button>
             </p>
             
             <p>
-                <input class="submit" id="submit"type="submit" value="submit">
+                <input class="submit" id="submit" type="button" value="SUBMIT">
             </p>
-
+        </div>
         </form>
     </div>
 
-    <!-- <div class="container" id="container">
-    </div> -->
 
-    <!-- <div class="footer" id="footer">
-        <button type="button" id="ping-button">Make a ping</button>
-        <button type="button" id="collect-button">Collect data</button>
-    </div> -->
 
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>

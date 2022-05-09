@@ -7,7 +7,7 @@ input {
     margin-top: 10px;
   }
   
-  
+
   
   input.error {
       border: 1px dashed red;
@@ -15,7 +15,7 @@ input {
       color: red;
   }
   
-  [type="submit"], [type="reset"], button, html [type="button"] {
+  /* [type="submit"], [type="reset"], button, html [type="button"] {
       margin-left: 0;
       border-radius: 0;
       background: black;
@@ -24,14 +24,14 @@ input {
       font-weight: 300;
       padding: 10px 0;
       line-height: 1;
-  }
+  } */
   .forma{
       margin-top: 50px;
   }
   .centru{
       align-items: center;
   }
-  .btn {
+  /* .btn {
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -52,8 +52,8 @@ input {
     width: 70%;
     margin-top: 5px;
     margin-bottom: 20px;
- }
- .btn:before, .btn:after {
+ } */
+ /* .btn:before, .btn:after {
     content: "";
     position: absolute;
     height: 200px;
@@ -65,8 +65,8 @@ input {
     opacity: 0.3;
     z-index: -1;
     transform: scale(0);
- }
- .btn:before {
+ } */
+ /* .btn:before {
     background: #ffeede;
     transition: .8s ease-out;
  }
@@ -79,14 +79,14 @@ input {
  .btn:hover:before, .btn:hover:after {
     opacity: 1;
     transform: scale(4);
- }
+ } */
 .link{
     padding: 16px;
     margin-bottom: 10px;
 }
 
-.bn {
-    background-color: #4CAF50; /* Green */
+/* .bn {
+    background-color: #4CAF50; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -95,12 +95,11 @@ input {
     display: inline-block;
     font-size: 16px;
     display: block;
-    margin-left: 30%;
+    margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+} */
 
-}
-
+/* ========================= */
 
 .container {
     display: flex;
@@ -126,23 +125,36 @@ input {
     font-size: 16px;
     display: inline;
 }
+/* ========================= */
+.lungime{
+    width: 100%;
+}
+.red {
+    border-color: red;
+  };
 
-.loccc{
-    margin-bottom: 75px;
+.buboncic {
+    align-items: left;
+}
+.hidden {
+    display:none;
+  }
+  
+#edTy1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+.noness{
+    display: none;
 }
 
-.linii{
-    border-top: 6px solid green;
+.shown {
+    display: block;
 }
-.caa{
-    background: #777;
-    font-family: Arial;
-    line-height:5em;
-    font-size:40px;
-    font-weight:normal;
-    color:#999;
-    text-align:center;
-    letter-spacing: -1pt;
-    text-shadow: 1px 1px 0 #000, -1px -1px 0 #fff;
-
+.Mangan{
+    margin-top: 10px;
+}
+.buboncic{
+    width: 10px;
 }
