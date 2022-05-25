@@ -1,0 +1,160 @@
+input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    font-family: 'Lato';
+    width: 300px;
+    margin-top: 10px;
+  }
+  
+
+  
+  input.error {
+      border: 1px dashed red;
+      font-weight: 300;
+      color: red;
+  }
+  
+  /* [type="submit"], [type="reset"], button, html [type="button"] {
+      margin-left: 0;
+      border-radius: 0;
+      background: black;
+      color: white;
+      border: none;
+      font-weight: 300;
+      padding: 10px 0;
+      line-height: 1;
+  } */
+  .forma{
+      margin-top: 50px;
+  }
+  .centru{
+      align-items: center;
+  }
+  /* .btn {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 10px 40px;
+    margin: 0 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #f5b08f;
+    border-width: 0;
+    box-shadow: 5px 5px 0 #532831;
+    outline: none;
+    cursor: pointer;
+    transition: 1.5s;
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+ } */
+ /* .btn:before, .btn:after {
+    content: "";
+    position: absolute;
+    height: 200px;
+    left: -50%;
+    margin-top: -100px;
+    top: 50%;
+    width: 200px;
+    border-radius: 50%;
+    opacity: 0.3;
+    z-index: -1;
+    transform: scale(0);
+ } */
+ /* .btn:before {
+    background: #ffeede;
+    transition: .8s ease-out;
+ }
+ .btn:after {
+    transition: .4s ease-in .3s;
+ }
+ .btn:hover {
+    color: #532831;
+ }
+ .btn:hover:before, .btn:hover:after {
+    opacity: 1;
+    transform: scale(4);
+ } */
+.link{
+    padding: 16px;
+    margin-bottom: 10px;
+}
+
+/* .bn {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* ========================= */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container div {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.container .error {
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container label.error {
+    font-size: 16px;
+    display: inline;
+}
+/* ========================= */
+.lungime{
+    width: 100%;
+}
+.red {
+    border-color: red;
+  };
+
+.buboncic {
+    align-items: left;
+}
+.hidden {
+    display:none;
+  }
+  
+#edTy1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+.noness{
+    display: none;
+}
+
+.shown {
+    display: block;
+}
+.Mangan{
+    margin-top: 10px;
+}
+.buboncic{
+    width: 10px;
+}
