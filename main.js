@@ -11,40 +11,44 @@ let victor3;
 let victor4;
 
 
-function navigate() {
-    timer = setTimeout(() => {
-        window.location.href = 'output.php';
-    }, 1); 
-}
+
 
 $(".flag").click(function() {
  navigate();
  });
 
+ function navigate() {
+    timer = setTimeout(() => {
+        window.location.href = 'output.php';
+    }, 1); 
+}
+
+
+
+ 
+ let el = document.querySelector('button.submit');
+//  el.setAttribute('type', 'submit');
+
 
 document.getElementById('submit').addEventListener('click', function () {
     victor1 = validateField('firstName', required);
     victor2 =  validateField('lastName', required);
+
+
       validateEmail();
       validaro();
        validatephone();
-       subBut();
-       subBt();
+
     let chekere = victor1 && victor2 ;
-console.log('dfasfsa------------------');
 console.log(chekere);
 
-let xyz = x + y + z;
 
 if (chekere) {
-    console.log("HI")
-    if(xyz => 1){
-        console.log('----fsf-s-f-s-fs');
-        window.location.href = 'output.php';
-        // window.location.href = 'http://localhost/homework/output.php';
-    }else{
-    }
+    console.log("HIasfasfasfasf");
+    el.setAttribute('type', 'submit');
+
 }else{
+    console.log("----------");
    
 }
     // if ( victor1&&victor2&&victor3&&victor4) {
@@ -213,7 +217,7 @@ function face(){
         console.log("lucreza");
     }if (ales == 'Chișinău') {
         document.getElementById('alesSe').innerHTML = `
-        <select name="" id="CytiGETS1" class="derer">
+        <select name="JobCompany" id="CytiGETS1" class="derer">
         <option id="0">JSC Alimentarmash</option>
     
         <option id="21">Erlan Ltd.</option>
@@ -242,7 +246,7 @@ function face(){
         `
     }if (ales == 'Bălți') {
         document.getElementById('alesSe').innerHTML =`
-        <select name="" id="CytiGETS1" class="derer">
+        <select name="JobCompany" id="CytiGETS1" class="derer">
         <option id="15">ICS Moldova Zahar Srl</option>
     
         <option id="36">Policontract LTD</option>
@@ -268,7 +272,7 @@ function face(){
         `
     }if (ales == 'Orhei') {
         document.getElementById('alesSe').innerHTML =`
-        <select name="" id="CytiGETS1" class="derer">
+        <select name="JobCompany" id="CytiGETS1" class="derer">
         <option id="9">Supramed Ltd.</option>
     
         <option id="30">DGG International SRL</option>
@@ -297,7 +301,7 @@ function face(){
         
     }if (ales == 'Tiraspol') {
         document.getElementById('alesSe').innerHTML =`
-        <select name="" id="CytiGETS1" class="derer">
+        <select name="JobCompany" id="CytiGETS1" class="derer">
         <option id="3">Colusvin SRL</option>
     
         <option id="24">Milvi Ltd</option>
@@ -326,7 +330,7 @@ function face(){
         
     }if (ales == 'Soroca') {
         document.getElementById('alesSe').innerHTML =`
-        <select name="" id="CytiGETS1" class="derer">
+        <select name="JobCompany" id="CytiGETS1" class="derer">
         <option id="18">Best Ebuy Limited</option>
     
         <option id="39">JSC Floarea Soarelui</option>
@@ -353,7 +357,7 @@ function face(){
         
     }if (ales == 'Nisporeni') {
         document.getElementById('alesSe').innerHTML =`
-        <select name="" id="CytiGETS1" class="derer">
+        <select name="JobCompany" id="CytiGETS1" class="derer">
         <option id="12">Premium Profil SRL</option>
     
         <option id="33">Pegza Group</option>
@@ -382,7 +386,7 @@ function face(){
         
     }if (ales == 'Bender') {
         document.getElementById('alesSe').innerHTML =`
-        <select name="" id="CytiGETS1" class="derer">
+        <select name="JobCompany" id="CytiGETS1" class="derer">
         <option id="6">Import GNP Ltd</option>
     
         <option id="27">Baltik Trading Llc</option>

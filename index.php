@@ -39,7 +39,7 @@
 
         <div>
             <label for="PhysicalAdres">PhysicalAdres</label>
-            <input  type="text" name="" id="PhysicalAdres">
+            <input  type="text" name="PhysicalAdres" id="PhysicalAdres">
         </div>
 
         <div class="noness">
@@ -96,23 +96,20 @@
             <option id="63">therapist</option>
         
             <option id="66">undertaker</option>
-        
-            
+
         </select>
-
-
-
-            <input type="text" name="link" id = "linkk" placeholder="Social link"  class="Mangan"> <div class="error" id="linkkError"></div> 
+            <input type="text" name="link" id = "linkk" placeholder="Social link"  class="Mangan">
+             <div class="error" id="linkkError"></div> 
 
         </div>
         <span></span>
 
                 <b>Education Title :</b> <br> 
-                <input type="text" class = "educatie" id = "svedc" placeholder="" > 
+                <input type="text" class = "educatie" name="EducationTitle" id = "svedc" placeholder="" > 
                 <div class="error" id="svedcError"></div>
                  <span class = "graducil">
                  <b class ="insert" >Graduation Date :</b><br></span>
-                  <input class = "grafateDater" type="date" placeholder="" id ="grdate">  
+                  <input class = "grafateDater" type="date" placeholder="" name="EducationGrade" id ="grdate">  
                    <div class="error" id="grdateError"></div>
                     <div id = "EducationEducation">Education</div>
                     <select id="edTy" class="bb">
@@ -143,7 +140,7 @@
 
             <div class="checker">
                 <b>Job Name :</b><br>
-                <select class="de" id="jobNames" name="">
+                <select class="de" id="jobNames" name="JobName">
                     <option id="1">teacher</option>
                 
                     <option id="2">doctor</option>
@@ -196,10 +193,10 @@
                 </select><br>
                 <div class="error" id="jobNamesError"></div>
                  <b class = "StartDateStartDate">StartDate :</b><br> 
-                 <input class = "DataDeStart" type="date" placeholder="" id ="strDat"> 
+                 <input class = "DataDeStart" type="date" placeholder="" id ="strDat" name="JobStart"> 
                   <div class="error" id="strDatError"></div>
                   <b class="end_date">EndDate :</b><br>
-                   <input type="date" placeholder="" id="enDat" class="end_date"> 
+                   <input type="date" placeholder="" id="enDat" class="end_date" name="JobEnd"> 
                    <div class="error" id="enDatError"></div>
                    <br>
                    <label for="checkbox"> <div class = "prezent"> In prezent 
@@ -207,7 +204,7 @@
                   <br><br></div>
                   <label for="CYti">CYti</label>
 
-                  <select name="" onchange = "face()" class = "ferma" id = "OfCit">
+                  <select name="JobCity" onchange = "face()" class = "ferma" id = "OfCit">
                     <option value="0" selected></option>
                     <option value="Chișinău">Chișinău</option>
                     <option value="Bălți">Bălți</option>
@@ -227,8 +224,9 @@
                 </div>
             
             <p>
-                <!-- <button class="submit" id="submit" type="submit">SUBMIT</button> -->
-                <input class="submit" id="submit" type="submit" value="SUBMIT">
+                <button class="submit" id="submit" type="button" onclick="subinteaza()" >SUBMIT</button>
+                <!-- <input class="submit" id="submit" type="button" value="SUBMIT" > -->
+                <!-- <button></button> -->
             </p>
             <input class="flag" type="button" value="Baza de Date">
         </div>

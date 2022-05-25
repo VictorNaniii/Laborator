@@ -52,6 +52,47 @@ if(isset($_GET['id']))
                         <span class="micro">link:</span>
                         <span class="text"> <?= $row['link']; ?> </span>
                     </div>
+
+                    <div>
+                        <span class="micro">PhysicalAdres:</span>
+                        <span class="text"> <?= $row['PhysicalAdres']; ?> </span>
+                    </div>
+
+                    <div>
+                        <span class="micro">EducationTitle:</span>
+                        <span class="text"> <?= $row['EducationTitle']; ?> </span>
+                    </div>
+
+                    <div>
+                        <span class="micro">EducationGrade:</span>
+                        <span class="text"> <?= $row['EducationGrade']; ?> </span>
+                    </div>
+
+                    <div>
+                        <span class="micro">JobName:</span>
+                        <span class="text"> <?= $row['JobName']; ?> </span>
+                    </div>
+
+                    <div>
+                        <span class="micro">JobStart:</span>
+                        <span class="text"> <?= $row['JobStart']; ?> </span>
+                    </div>
+
+                    <div>
+                        <span class="micro">JobEnd:</span>
+                        <span class="text"> <?= $row['JobEnd']; ?> </span>
+                    </div>
+
+                    <div>
+                        <span class="micro">JobCity:</span>
+                        <span class="text"> <?= $row['JobCity']; ?> </span>
+                    </div>
+
+                    <div>
+                        <span class="micro">JobCompany:</span>
+                        <span class="text"> <?= $row['JobCompany']; ?> </span>
+                    </div>
+
                 </div>
 
         <?php
